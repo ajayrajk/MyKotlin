@@ -5,8 +5,8 @@ class ReverseWord {
         fun main() {
             val str = "Java is a use for reverse testing"
 
-            var  strArray=str.split(" ")
-            var reverseWord=""
+            val strArray=str.split(" ")
+            val reverseWord=""
             for (i in strArray.size-1 .. 0){
                 reverseWord.plus(strArray[i]+" ")
 
